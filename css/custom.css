@@ -1,0 +1,274 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+body {
+  background: #3f397c;
+  color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2 {
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+  color: #cdcdcd;
+}
+
+.jumbotron {
+  background: #9fb0f5;
+  color: #3f397c;
+  text-align: left;
+  font-family: Courier;
+  height: 100vh;
+  overflow: hidden;
+
+}
+.jumbotron p {
+  color: #3f397c;
+  font-size: 26px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: white;
+  margin-bottom: 5px;
+  font-weight: bold;
+  border: 2px solid;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #bac6f7;
+  border-color: white;
+}
+
+.navbar-inverse {
+  background: #3f397c;
+  border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #f7f7f7;
+  font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+  background: #4b4494;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: 'Courier';
+    font-size: 30px;
+}
+
+.dropdown-menu {
+  background: #2e2f31;
+  border-radius: 0;
+  border: 0;
+}
+.dropdown-menu li a {
+  padding: 10px;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+  background: #2c463c;
+}
+
+.signature {
+    font-weight: 400;
+    color: #7A8C96;
+    text-align: center;
+}
+
+.type-b {
+    padding: 50px 0;
+    background-color: #b39ddb;
+}
+
+.type-b h3 {
+    color: #673ab7;
+    padding-left: 10%;
+}
+
+.embedCal {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.embedCal iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.projects p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.type-a {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.type-a p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.type-a img {
+    display:block;
+    
+    padding: 6.5%;
+    width:auto;
+    height:auto;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    -khtml-border-radius: 50%;
+    text-align:center;
+    position: relative;
+}
+
+.about ul {
+    width: 120%;
+    margin-left: -60px;
+}
+
+.about ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.about img {
+    border-radius: 0;
+    max-width: 200px; 
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+
+.board .container {
+    padding-left: 10%;
+}
+
+.landing-text {
+    padding-left: 7%;
+    float: left;
+}
+
+.landing-text h1{
+    width: 450px;
+}
+
+.board img {
+    transition: all .35s ease-in-out;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/work3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner a {
+    color: #673ab7;
+}
+.banner p>i {
+    font-size: 1.5em;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+.spacer {
+    height: 10px;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+.call-to-action {
+  text-align: center;
+}
+
+.call-to-action p {
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+
+.noselect {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+.lazy {
+    opacity: 0;
+    transition: opacity .3s ease-in
+}
+
+#hero-image {
+    width:30%;
+    height:auto;
+    padding-right: 30px;
+}
+
+#title {
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+#welcome-message {
+    padding-left: 160px;
+    display: inline-block
+}
