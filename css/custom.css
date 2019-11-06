@@ -257,10 +257,35 @@ p {
     transition: opacity .3s ease-in
 }
 
+.signature {
+    margin-bottom: 20px;
+}
+
+.icons i {
+    font-size: 40px;
+    margin: 4px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid transparent;
+    display: inline-block;
+    border-radius: 70px;
+    padding: 0.4em 0.4em;
+    transition: .2s all;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+}
+
 #hero-image {
-    width:30%;
+    position: relative;
+    width: 30%;
     height:auto;
-    padding-right: 30px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 80px; 
 }
 
 #title {
@@ -271,4 +296,10 @@ p {
 #welcome-message {
     padding-left: 160px;
     display: inline-block
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
