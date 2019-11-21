@@ -86,8 +86,8 @@ p {
 }
 
 .type-b h3 {
-    color: #673ab7;
-    padding-left: 10%;
+    color: white;
+    text-align: center;
 }
 
 .embedCal {
@@ -259,6 +259,7 @@ p {
     margin-bottom: 20px;
 }
 
+
 .icons i {
     font-size: 40px;
     margin: 4px;
@@ -301,4 +302,16 @@ footer {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+}
+
+.get-involved {
+    background: #47418b;
+}
+
+a {
+    color: #ADD8E6;
+}
+
+a:hover{
+    color: #ADD8E6;
 }
