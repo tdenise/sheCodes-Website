@@ -265,16 +265,12 @@ p {
 
 
 .icons i {
-    font-size: 40px;
+    font-size: 25px;
     margin: 4px;
     color: white;
-    background-color: transparent;
-    border: 2px solid transparent;
     display: inline-block;
-    border-radius: 70px;
     padding: 0.4em 0.4em;
-    transition: .2s all;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -285,11 +281,14 @@ footer {
     align-items: center;
     background: #3f397c;
 }
+.footer-row {
+    text-align: center;
+}
 
 #hero-image {
     position: relative;
     width: 30%;
-    height:auto;
+    height: auto;
     margin-top: 30px;
     margin-right: auto;
     margin-bottom: 0px;
@@ -300,6 +299,7 @@ footer {
     margin-top: 90px;
     margin-bottom: 20px;
 }
+
 
 #welcome-message {
     padding-left: 160px;
@@ -322,4 +322,12 @@ a {
 
 a:hover{
     color: #ADD8E6;
+}
+
+.mailing {
+    text-align: center;
+}
+
+a:focus, a:hover {
+    color: transparent;
 }
