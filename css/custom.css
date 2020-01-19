@@ -63,7 +63,7 @@ p {
 }
 
 .dropdown-menu {
-  background: #2e2f31;
+  background: #4e4796;
   border-radius: 0;
   border: 0;
 }
@@ -71,7 +71,11 @@ p {
   padding: 10px;
 }
 .navbar-inverse .navbar-nav .dropdown-menu li a:hover {
-  background: #2c463c;
+  background: #4b4494;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a:dropdown_toggle {
+  background: #4b4494;
 }
 
 .signature {
@@ -130,7 +134,7 @@ p {
     -webkit-border-radius:50%;
     -khtml-border-radius: 50%;
     text-align:center;
-    position: relative;
+    position:relative;
 }
 
 .about ul {
@@ -274,7 +278,11 @@ p {
 }
 
 footer {
-    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #3f397c;
 }
 
