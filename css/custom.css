@@ -137,6 +137,14 @@ p {
     position:relative;
 }
 
+.type-c {
+    padding: 50px 0;
+}
+
+.type-c p {
+    font-family: 'Volkorn', sans-serif;
+}
+
 .type-c img {
     display:block;
     margin-top: 20%;    
